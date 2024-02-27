@@ -14,12 +14,10 @@ nav {
     justify-content: space-around;
     align-items: center;
     height: 90px;
-    background-color: rgb(216, 216, 223);
 }
 
 nav img {
     height: 85px;
-    background-color: rgb(216, 216, 223);
 }
 
 .left {
