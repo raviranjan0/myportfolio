@@ -2,7 +2,7 @@
 
 Welcome to my personal portfolio repository! This project serves as a showcase of my skills, projects, and experiences as a web developer.
 
-## Screenshots :- 
+## Preview 
 
 ![Screenshot (15)](https://github.com/raviranjan0/myportfolio/assets/100368738/d256c760-b9be-469e-bc65-f275eae66de0)
 
