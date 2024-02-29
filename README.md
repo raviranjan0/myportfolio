@@ -8,7 +8,7 @@ Welcome to my personal portfolio repository! This project serves as a showcase o
 
 ![Screenshot (16)](https://github.com/raviranjan0/myportfolio/assets/100368738/ae4561e4-5067-4fa4-b886-2598c445b721)
 
-## 🚀 Features
+## 🚀 Features :
 
 - **Project Showcase:** Discover details about my completed web development projects.
 - **Skills:** Explore the technologies and tools I am proficient in.
