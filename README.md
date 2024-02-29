@@ -15,7 +15,7 @@ Welcome to my personal portfolio repository! This project serves as a showcase o
 - **About Me:** Learn more about my background, interests, and experiences.
 - **Contact:** Connect with me through various channels.
 
-## 🔧 Technologies Used
+## 🔧 Technologies Used :
 - HTML 
 - CSS 
 - JavaScript 
