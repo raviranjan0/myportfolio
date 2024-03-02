@@ -4,7 +4,8 @@ Welcome to my personal portfolio repository! This project serves as a showcase o
 
 ## Preview :
 
-![Screenshot (15)](https://github.com/raviranjan0/myportfolio/assets/100368738/d256c760-b9be-469e-bc65-f275eae66de0)
+![Screenshot (49)](https://github.com/raviranjan0/myportfolio/assets/100368738/7d5ec8b3-70b3-49f0-b8fe-edcc8cdccb4f)
+
 
 ![Screenshot (16)](https://github.com/raviranjan0/myportfolio/assets/100368738/ae4561e4-5067-4fa4-b886-2598c445b721)
 
