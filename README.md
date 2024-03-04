@@ -22,4 +22,4 @@ Welcome to my personal portfolio repository! This project serves as a showcase o
 - JavaScript 
 - TypeScript 
 
-## Thank You  
+##
