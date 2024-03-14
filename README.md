@@ -1,7 +1,7 @@
 # My Portfolio
 
 Welcome to my personal portfolio repository! This project serves as a showcase of my skills, projects, education and experiences as a  full stack web developer. 
-..............
+.............
 ## Preview :
 
 ![Screenshot (49)](https://github.com/raviranjan0/myportfolio/assets/100368738/7d5ec8b3-70b3-49f0-b8fe-edcc8cdccb4f)
