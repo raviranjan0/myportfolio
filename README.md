@@ -1,6 +1,6 @@
 # My Portfolio
 
-Welcome to my personal portfolio repository! This project serves as a showcase of my skills, projects, education and experiences as a  full stack web developer. .........
+Welcome to my personal portfolio repository! This project serves as a showcase of my skills, projects, education and experiences as a  full stack web developer. ........
 
 
 ## Preview :
