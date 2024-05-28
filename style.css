@@ -158,3 +158,9 @@ main hr {
     transition: .5s;
 }
 
+#mid-second ul li a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
