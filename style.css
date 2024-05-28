@@ -45,6 +45,13 @@ nav ul li a {
 nav ul li a:hover {
     color: rgb(255, 132, 0);
     font-size: 1.01rem;
+    border: 2px solid rgba(0, 0, 0, 0.612);
+    letter-spacing: 0.5px;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: whitesmoke;
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.515);
+    transition: .5s;
 }
 
 #element {
@@ -127,21 +134,27 @@ main hr {
     padding: 10px;
     border-radius: 5px;
     cursor: pointer;
-    box-shadow: 10px 10px 5px salmon;
+    box-shadow: 10px 10px 20px salmon;
+     background-color: #fff;
+    transition: .5s;
 }
 
 #mid-second:hover{
     border: 2px solid rgb(194, 41, 7);
-    padding: 10px;
+    padding: 20px;
     border-radius: 5px;
     cursor: pointer;
-    box-shadow: 10px 10px 5px salmon;
+    box-shadow: 10px 10px 20px salmon;
+    background-color: #fff;
+    transition: .5s;
 }
 #right-second:hover{
     border: 2px solid rgb(194, 41, 7);
     padding: 10px;
     border-radius: 5px;
     cursor: pointer;
-    box-shadow: 10px 10px 5px salmon;
+    box-shadow: 10px 10px 20px salmon;
+     background-color: #fff;
+    transition: .5s;
 }
 
