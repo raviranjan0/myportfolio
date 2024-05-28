@@ -22,6 +22,7 @@ nav img {
 
 .left {
     font-size: 2rem;
+    font-weight: 900;
 }
 
 nav ul {
@@ -119,5 +120,28 @@ main hr {
 
 .intern{
     margin-top: 10px;
+}
+
+#left-second:hover{
+    border: 2px solid rgb(194, 41, 7);
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 10px 10px 5px salmon;
+}
+
+#mid-second:hover{
+    border: 2px solid rgb(194, 41, 7);
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 10px 10px 5px salmon;
+}
+#right-second:hover{
+    border: 2px solid rgb(194, 41, 7);
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 10px 10px 5px salmon;
 }
 
