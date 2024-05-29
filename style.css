@@ -92,6 +92,7 @@ nav ul li a:hover {
 .rightsection img:hover {
   width: 500px;
   height: 500px;
+  transition: .5s;
 }
 
 main hr {
@@ -142,7 +143,7 @@ h1 {
   margin: 20px 20px 0 0;
 }
 
-.My-Experienced:hover {
+.My-Experienced:hover, .education:hover {
   background-color: aliceblue;
   border-radius: 1.6rem;
   border: 1px solid rgba(0, 0, 0, 0.106);
@@ -205,21 +206,20 @@ h1 {
   justify-content: space-between;
 }
 
-.contact-container{
+.contact-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
 }
 
-.contact-left{
+.contact-left {
   display: flex;
   flex-direction: column;
   align-items: start;
   gap: 20px;
 }
 
-.contact-inputs{
+.contact-inputs {
   width: 400px;
   height: 50px;
   border: none;
@@ -230,20 +230,20 @@ h1 {
   border-radius: 50px;
 }
 
-.contact-left textarea{
+.contact-left textarea {
   height: 150px;
   padding-top: 15px;
   border-radius: 20px;
 }
 
-.contact-inputs:hover{
+.contact-inputs:hover {
   border: 2px solid #ff994f;
 }
 
-.contact-inputs::placeholder{
+.contact-inputs::placeholder {
   color: lightgray;
 }
-.contact-left button{
+.contact-left button {
   display: flex;
   align-items: center;
   padding: 15px 30px;
@@ -256,19 +256,19 @@ h1 {
   background: linear-gradient(270deg, #ff994f, #fa6d86);
 }
 
-.contact-left button img{
+.contact-left button img {
   height: 1rem;
 }
 
-.contact-right img{
+.contact-right img {
   width: 600px;
 }
 
-@media (max-width:800px) {
-  .contact-inputs{
+@media (max-width: 800px) {
+  .contact-inputs {
     width: 80vw;
   }
-  .contact-right{
+  .contact-right {
     display: none;
   }
 }
