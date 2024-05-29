@@ -74,7 +74,7 @@ nav ul li a:hover {
 }
 
 .s1 {
-  color: rgba(0, 0, 0, 0.515);
+  color: rgba(0, 0, 0, 0.534);
   margin: auto;
 }
 
@@ -124,8 +124,9 @@ main hr {
   margin: auto;
 }
 
-.thirdsection h1 {
+h1 {
   font-size: 2rem;
+  color: rgb(255, 132, 0);
 }
 
 .intern {
@@ -202,4 +203,72 @@ main hr {
 .contact {
   display: flex;
   justify-content: space-between;
+}
+
+.contact-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.contact-left{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+}
+
+.contact-inputs{
+  width: 400px;
+  height: 50px;
+  border: none;
+  outline: none;
+  padding-left: 25px;
+  font-weight: 500;
+  color: #666;
+  border-radius: 50px;
+}
+
+.contact-left textarea{
+  height: 150px;
+  padding-top: 15px;
+  border-radius: 20px;
+}
+
+.contact-inputs:hover{
+  border: 2px solid #ff994f;
+}
+
+.contact-inputs::placeholder{
+  color: lightgray;
+}
+.contact-left button{
+  display: flex;
+  align-items: center;
+  padding: 15px 30px;
+  font-size: 1rem;
+  color: #fff;
+  gap: 10px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  background: linear-gradient(270deg, #ff994f, #fa6d86);
+}
+
+.contact-left button img{
+  height: 1rem;
+}
+
+.contact-right img{
+  width: 600px;
+}
+
+@media (max-width:800px) {
+  .contact-inputs{
+    width: 80vw;
+  }
+  .contact-right{
+    display: none;
+  }
 }
