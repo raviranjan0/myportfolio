@@ -1,166 +1,204 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    background-color: rgb(241, 238, 238);
-    color: black;
-    font-family: sans-serif;
+  background-color: rgb(241, 238, 238);
+  color: black;
+  font-family: sans-serif;
+  height: 100vh;
+  width: 100vw;
 }
 
 nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 90px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 90px;
 }
 
 nav img {
-    height: 85px;
+  height: 85px;
 }
 
 .left {
-    font-size: 2rem;
-    font-weight: 900;
+  font-size: 2rem;
+  font-weight: 900;
 }
 
 nav ul {
-    display: flex;
-    justify-content: center;
-
+  display: flex;
+  justify-content: center;
 }
 
 nav ul li {
-    list-style: none;
-    margin: 1px 25px;
+  list-style: none;
+  margin: 1px 25px;
 }
 
 nav ul li a {
-    text-decoration: none;
-    color: black;
-
+  text-decoration: none;
+  color: black;
 }
 
 nav ul li a:hover {
-    color: rgb(255, 132, 0);
-    font-size: 1.01rem;
-    border: 2px solid rgba(0, 0, 0, 0.612);
-    letter-spacing: 0.5px;
-    border-radius: 5px;
-    padding: 5px;
-    background-color: whitesmoke;
-    box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.515);
-    transition: .5s;
+  color: rgb(255, 132, 0);
+  font-size: 1.01rem;
+  border: 2px solid rgba(0, 0, 0, 0.612);
+  letter-spacing: 0.5px;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: whitesmoke;
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.515);
+  transition: 0.5s;
 }
 
 #element {
-    color: rgb(255, 132, 0);
+  color: rgb(255, 132, 0);
 }
 
 .firstsection {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 80px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 80px 0;
 }
 
-.firstsection>div {
-    width: 30%;
-
+.firstsection > div {
+  width: 30%;
 }
 
 .name {
-    color: rgb(255, 132, 0);
+  color: rgb(255, 132, 0);
 }
 
-.s1{
-    color: rgba(0, 0, 0, 0.515);
-    margin: auto;
+.s1 {
+  color: rgba(0, 0, 0, 0.515);
+  margin: auto;
 }
 
 .leftsection {
-    font-size: 2.6rem;
+  font-size: 2.6rem;
 }
 
 .rightsection img {
-    width: 100%;
-    border-radius: 50%;
-    margin-top: 20px;
+  width: 100%;
+  border-radius: 50%;
+  margin-top: 20px;
+  box-shadow: 10px 10px 20px;
+}
+
+.rightsection img:hover {
+  width: 500px;
+  height: 500px;
 }
 
 main hr {
-    border: 0;
-    background-color: rgb(216, 216, 223);
-    height: 1px;
-    margin: 50px 90px;
+  border: 0;
+  background-color: rgb(216, 216, 223);
+  height: 1px;
+  margin: 50px 90px;
 }
 
-.secondsection{
-    display: flex;
-    justify-content: space-between;
-    max-width: 80vw;
-    margin: auto;
-    height: 40vh;
-    
+.secondsection {
+  display: flex;
+  justify-content: space-between;
+  max-width: 80vw;
+  margin: auto;
+  height: 40vh;
 }
 
-.secondsection h1{
-    font-size: 2rem;
+.secondsection h1 {
+  font-size: 2rem;
 }
 
-.secondsection ul li{
-    list-style: none;
-    padding: 5px;
-    margin: 10px auto;
+.secondsection ul li {
+  list-style: none;
+  padding: 5px;
+  margin: 10px auto;
 }
 
-.thirdsection{
-    max-width: 80vw;
-    margin: auto;
-    height: 40vh;
+.thirdsection {
+  max-width: 80vw;
+  margin: auto;
 }
 
-.thirdsection h1{
-    font-size: 2rem;
+.thirdsection h1 {
+  font-size: 2rem;
 }
 
-.intern{
-    margin-top: 10px;
+.intern {
+  margin-top: 10px;
 }
 
-#left-second:hover{
-    border: 2px solid rgb(194, 41, 7);
-    padding: 10px;
-    border-radius: 5px;
-    cursor: pointer;
-    box-shadow: 10px 10px 20px salmon;
-     background-color: #fff;
-    transition: .5s;
+.Internship {
+  margin-top: 1rem;
 }
 
-#mid-second:hover{
-    border: 2px solid rgb(194, 41, 7);
-    padding: 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    box-shadow: 10px 10px 20px salmon;
-    background-color: #fff;
-    transition: .5s;
-}
-#right-second:hover{
-    border: 2px solid rgb(194, 41, 7);
-    padding: 10px;
-    border-radius: 5px;
-    cursor: pointer;
-    box-shadow: 10px 10px 20px salmon;
-     background-color: #fff;
-    transition: .5s;
+.My-Experienced {
+  background-color: aliceblue;
+  padding: 20px;
+  margin: 50px 50px 0 0;
+  border-radius: 1.6rem;
+  border: 1px solid rgba(0, 0, 0, 0.106);
 }
 
-#mid-second ul li a{
-    text-decoration: none;
-    list-style: none;
-    color: black;
+.My-Experienced:hover {
+  padding: 50px;
+  cursor: pointer;
+  box-shadow: 10px 10px 20px black;
+  transform-style: inherit;
+  transition: 0.5s;
 }
 
+#left-second:hover {
+  border: 2px solid rgb(194, 41, 7);
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 10px 10px 20px rgb(255, 132, 0);
+  background-color: #fff;
+  transition: 0.5s;
+}
+
+#mid-second:hover {
+  border: 2px solid rgb(194, 41, 7);
+  padding: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 10px 10px 20px rgb(255, 132, 0);
+  background-color: #fff;
+  transition: 0.5s;
+}
+#right-second:hover {
+  border: 2px solid rgb(194, 41, 7);
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 10px 10px 20px rgb(255, 132, 0);
+  background-color: #fff;
+  transition: 0.5s;
+}
+
+#mid-second ul li a {
+  text-decoration: none;
+  list-style: none;
+  color: black;
+}
+
+.rtu-logo img {
+  width: 3rem;
+}
+
+#university {
+  display: flex;
+  padding: 0 30px 30px 0px;
+  margin-top: 1rem;
+}
+
+.University {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+}
