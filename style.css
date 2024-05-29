@@ -137,41 +137,25 @@ main hr {
 }
 
 .My-Experienced {
-  background-color: aliceblue;
+  
   padding: 20px;
-  margin: 50px 50px 0 0;
-  border-radius: 1.6rem;
-  border: 1px solid rgba(0, 0, 0, 0.106);
+  margin: 20px 20px 0 0;
+  
 }
 
 .My-Experienced:hover {
+  background-color: aliceblue;
+  border-radius: 1.6rem;
+  border: 1px solid rgba(0, 0, 0, 0.106);
   padding: 50px;
   cursor: pointer;
   box-shadow: 10px 10px 20px black;
   transform-style: inherit;
   transition: 0.5s;
+  
 }
 
-#left-second:hover {
-  border: 2px solid rgb(194, 41, 7);
-  padding: 10px;
-  border-radius: 5px;
-  cursor: pointer;
-  box-shadow: 10px 10px 20px rgb(255, 132, 0);
-  background-color: #fff;
-  transition: 0.5s;
-}
-
-#mid-second:hover {
-  border: 2px solid rgb(194, 41, 7);
-  padding: 20px;
-  border-radius: 5px;
-  cursor: pointer;
-  box-shadow: 10px 10px 20px rgb(255, 132, 0);
-  background-color: #fff;
-  transition: 0.5s;
-}
-#right-second:hover {
+#left-second:hover, #mid-second:hover, #right-second:hover {
   border: 2px solid rgb(194, 41, 7);
   padding: 10px;
   border-radius: 5px;
