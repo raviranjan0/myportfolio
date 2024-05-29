@@ -137,10 +137,8 @@ main hr {
 }
 
 .My-Experienced {
-  
   padding: 20px;
   margin: 20px 20px 0 0;
-  
 }
 
 .My-Experienced:hover {
@@ -152,10 +150,11 @@ main hr {
   box-shadow: 10px 10px 20px black;
   transform-style: inherit;
   transition: 0.5s;
-  
 }
 
-#left-second:hover, #mid-second:hover, #right-second:hover {
+#left-second:hover,
+#mid-second:hover,
+#right-second:hover {
   border: 2px solid rgb(194, 41, 7);
   padding: 10px;
   border-radius: 5px;
@@ -185,4 +184,22 @@ main hr {
   display: flex;
   flex-direction: column;
   margin-left: 1rem;
+}
+
+.logo {
+  margin-top: 1rem;
+  align-items: center;
+}
+
+.logo:hover {
+  box-shadow: 10px 10px 20px;
+  padding: 20px;
+  border-radius: 50%;
+  background: none;
+  transition: 0.7s;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-between;
 }
