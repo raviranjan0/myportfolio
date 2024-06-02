@@ -164,6 +164,7 @@ h1 {
   box-shadow: 10px 10px 20px rgb(255, 132, 0);
   background-color: #fff;
   transition: 0.5s;
+  transform: scale(1.2);
 }
 
 #mid-second ul li a {
