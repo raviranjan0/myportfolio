@@ -14,6 +14,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
   <link rel="shortcut icon" href="/logo.jpg (2).png" type="image/x-icon" />
+  <script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
 </head>
 
 <body>
@@ -226,13 +229,12 @@
       <h1>Get in Touch</h1>
 
       <div class="contact-container">
-        <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
-          <input type="hidden" name="access_key" value="9864eb7e-91a1-497a-8017-3687a1a2a0e3">
+        <form  id="feedback-form" class="contact-left">
 
-          <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
-          <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
+          <input type="text" id="name" name="name" placeholder="Your Name" class="contact-inputs" required>
+          <input type="email" id="email" name="user_email" placeholder="Your Email" class="contact-inputs" required>
 
-          <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
+          <textarea name="message" id="message" placeholder="Your Message" class="contact-inputs" required></textarea>
 
           <button type="submit">Submit <img src="arrow_icon.png" alt="submit"></button>
         </form>
@@ -243,7 +245,13 @@
 
     </section>
   </main>
-
+  <script type="text/javascript">
+    (function(){
+       emailjs.init({
+         publicKey: "rId2aw03Pj2ZNq2U5",
+       });
+    })();
+  </script>
   <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
   <script>
     var typed = new Typed("#element", {
@@ -257,7 +265,23 @@
       typeSpeed: 50,
     });
   </script>
+<script>
+  // Feedback JS
+  document.getElementById("feedback-form").addEventListener("submit", function(event) {
+   event.preventDefault();
+  
+  emailjs.sendForm('service_hrz8hfg', 'template_na7xjc4',"#feedback-form").then(
+(response) => {
+  console.log('SUCCESS!',  response.status, response.text);
+},
+(error) => {
+  console.log('FAILED...', error);
+},
+);
 
+
+  });
+</script>
 </body>
 
 </html>
