@@ -236,6 +236,8 @@
 
           <textarea name="message" id="message" placeholder="Your Message" class="contact-inputs" required></textarea>
 
+          <div id="message1" style="display: none; color: green; font-size: 1.2em; margin-top: 20px;"></div>
+          <div id="error-message" style="display: none; color: red; font-size: 1.2em; margin-top: 20px;"></div>
           <button type="submit">Submit <img src="arrow_icon.png" alt="submit"></button>
         </form>
         <div class="contact-right">
@@ -278,8 +280,15 @@
   console.log('FAILED...', error);
 },
 );
+var messageElement = document.getElementById("message1");
+      messageElement.innerText = "Thank you for your feedback!";
+      messageElement.style.display = "block";
 
 
+      setTimeout(function() {
+        messageElement.style.display = "none";
+        document.getElementById("feedback-form").reset();
+      }, 3000);
   });
 </script>
 </body>
