@@ -36,7 +36,21 @@
           <li><a href="#Contact">Contact Me</a></li>
         </ul>
       </div>
+      <div class="hamburger" onclick="handleClick()" ="hamburger" onClick={handleHamClick}>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
     </nav>
+  <div class="elements" id="second">
+    <ul>
+      <li><a href="#Home">Home</a></li>
+      <li><a href="">About me</a></li>
+      <li><a href="#left-second">Skills</a></li>
+      <li><a href="#right-second">Services</a></li>
+      <li><a href="#Contact">Contact Me</a></li>
+    </ul>
+  </div>
   </header>
 
   <main>
@@ -213,8 +227,8 @@
                 style="color: #25D366"></i></a></i>
           </div>
 
-          <div class="logo"><a href="mailto:raviranjankrsingh07@gmail.com"><img src="gmail.png" alt="gmail"
-                style="width: 75px;"></a>
+          <div class="logo"><a href="mailto:raviranjankrsingh07@gmail.com"><img class="gmail" src="gmail.png" alt="gmail"
+              ></a>
           </div>
 
           <div class="logo"><a href="https://www.instagram.com/_.pandaxx__/"><i class="fa-brands fa-instagram fa-5x"
@@ -290,6 +304,13 @@ var messageElement = document.getElementById("message1");
         document.getElementById("feedback-form").reset();
       }, 3000);
   });
+</script>
+<script>
+  function handleClick(){
+    document.getElementById('second').classList.toggle('active')
+    
+
+  }
 </script>
 </body>
 
